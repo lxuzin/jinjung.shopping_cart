@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 진정이네 과일가게 </title>
+    <link rel="icon" type="image/x-icon" href="./image/favicon.ico">
+
+    <style>
+        body{
+            margin: 0 200px;
+        }
+
+        #content{
+            height: 100%;
+            margin: 100px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        header{
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0 0 20px;
+        
+        }
+        header button{
+            background-color: white;
+            border: 1px solid rgb(108, 105, 105);
+            border-radius: 5px;
+            width: 100px;
+            height: 40px;
+
+        }
+        header span{
+            font-weight: bold;
+            /* padding-bottom: 10px; */
+        }
+        .imgf {
+            width: 40%;
+            height: 40%;
+            border-radius: 20px;
+        }
+        #image {
+            display: flex;
+            align-items: center;
+            gap: 30px; /* 이미지와 텍스트 사이의 간격 조정 */
+
+        }
+
+        .text-container {
+            display: flex;
+            flex-direction: column; 
+            gap: 10px; 
+        }
+
+        h1,h2 {
+            margin: 0;
+            padding: 10px;
+        }
+        h2{
+            font-weight: 500;
+        }
+        .actions button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 10px;
+            border-color: purple;
+            margin-top: 50px;
+        }
+        .actions {
+            display: flex;
+            align-items: center; /* 수직 중앙 정렬 */
+            gap: 10px; /* 요소들 사이의 간격 조정 */
+            margin-top: 70px;
+        }
+
+        input[type="number"] {
+            padding: 13px;
+            font-size: 16px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            width: 80px;
+            margin-top: 50px;
+        }
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <header id="nav">
+        <a href="./index.html">
+            <div id="logo"> 
+                <!-- <img src="./image/logo.png" width="60px" height="60px"></img>  -->
+                <span>진정이네 과일가게</span>
+                <!-- <img src="./image/logo.png" width="30px" height="30px"></img> --> 
+            </div>
+        </a>
+        <a href="./cart.html"><button>장바구니 🛒</button></a>
+    </header>
+    <div id="content">
+        <div id="image">
+            <img id="fruit-image" src="" class="imgf" alt="">
+            <div class="text-container">
+                <h1 id="fruit-name"> </h1>
+                <h2 id="fruit-price"> 가격: </h2>
+                <h2 id="fruit-origin"> 원산지: </h2>
+                <h2 id="fruit-content"> </h2>
+                <div class="actions"> 
+                    <input type="number" min="1" value="1" placeholder="수량">
+                    <button type="submit" > 🛒 장바구니 담기 🛒 </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="detail.js"></script>
+</body>
+</html>

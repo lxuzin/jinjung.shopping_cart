@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "사과",
+        "price": 1500,
+        "image": "apple.jpg",
+        "content": "🍎맛있는 고당도 사과🍎",
+        "origin": "경북"
+    },
+    {
+        "id": 2,
+        "name": "바나나",
+        "price": 3000,
+        "image": "banana.jpg",
+        "content": "🍌달콤하고 부드러운 바나나🍌",
+        "origin": "필리핀"
+    },
+    {
+        "id": 3,
+        "name": "포도",
+        "price": 5500,
+        "image": "grape.jpg",
+        "content": "🍇탱글탱글한 포도🍇",
+        "origin": "미국"
+    },
+    {
+        "id": 4,
+        "name": "귤",
+        "price": 4000,
+        "image": "tangerine.jpg",
+        "content": "🍊상큼한 제주산 귤🍊",
+        "origin": "제주"
+    },
+    {
+        "id": 5,
+        "name": "딸기",
+        "price": 6500,
+        "image": "strawberry.jpg",
+        "content": "🍓달콤한 딸기🍓",
+        "origin": "경기"
+    },
+    {
+        "id": 6,
+        "name": "블루베리",
+        "price": 7800,
+        "image": "blueberry.jpg",
+        "content": "🫐신선한 블루베리🫐",
+        "origin": "미국"
+    },
+    {
+        "id": 7,
+        "name": "파인애플",
+        "price": 5500,
+        "image": "pineapple.jpg",
+        "content": "🍍상큼한 파인애플🍍",
+        "origin": "코스타리카"
+    },
+    {
+        "id": 8,
+        "name": "망고",
+        "price": 9500,
+        "image": "mango.jpg",
+        "content": "🥭달콤한 망고🥭",
+        "origin": "태국"
+    },
+    {
+        "id": 9,
+        "name": "레몬",
+        "price": 2000,
+        "image": "lemon.jpg",
+        "content": "🍋새콤한 레몬🍋",
+        "origin": "미국"
+    },
+    {
+        "id": 10,
+        "name": "복숭아",
+        "price": 6200,
+        "image": "peach.jpg",
+        "content": "🍑향긋한 복숭아🍑",
+        "origin": "경북"
+    },
+    {
+        "id": 11,
+        "name": "참외",
+        "price": 4800,
+        "image": "melon.jpg",
+        "content": "달콤한 참외",
+        "origin": "경기"
+    },
+    {
+        "id": 12,
+        "name": "수박",
+        "price": 15000,
+        "image": "watermelon.jpg",
+        "content": "🍉시원한 수박🍉",
+        "origin": "경북"
+    },
+    {
+        "id": 13,
+        "name": "라임",
+        "price": 3500,
+        "image": "lime.jpg",
+        "content": "🍋‍🟩새콤한 라임🍋‍🟩",
+        "origin": "멕시코"
+    },
+    {
+        "id": 14,
+        "name": "자두",
+        "price": 5200,
+        "image": "plum.jpg",
+        "content": "달콤한 자두",
+        "origin": "경기"
+    },
+    {
+        "id": 15,
+        "name": "키위",
+        "price": 4500,
+        "image": "kiwi.jpg",
+        "content": "🥝신선한 키위🥝",
+        "origin": "뉴질랜드"
+    }
+]

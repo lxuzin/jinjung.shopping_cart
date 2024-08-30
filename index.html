@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 진정이네 과일가게 </title>
+    <link rel="icon" type="image/x-icon" href="./image/favicon.ico">
+</head>
+<style>
+    body{
+        margin: 0 200px;
+    }
+    header{
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0 0 20px;
+        
+    }
+    header button{
+        background-color: white;
+        border: 1px solid rgb(108, 105, 105);
+        border-radius: 5px;
+        width: 100px;
+        height: 40px;
+    }
+    header span{
+        font-weight: bold;
+        /* padding-bottom: 10px; */
+    }
+
+    .image{
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+    .item-name{
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .item-price{
+        margin-top: 10px;
+        color: rgb(0, 166, 255);
+        font-weight: bold;
+    }
+    .item-content{
+        margin-top: 10px;
+    }
+    .item{
+        width: fit-content;
+        padding: 20px;
+        border-radius: 20px;
+        margin: 0 60px 80px 0px;
+    }
+    .item:hover{
+        box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    }
+    #item-list{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    h3{
+        padding-left: 20px;
+        margin-top: 50px;
+    }
+    a{
+            text-decoration: none;
+            color: #000;
+        }
+</style>
+<body>
+    <header id="nav">
+        <a href="./index.html">
+            <div id="logo"> 
+                <!-- <img src="./image/logo.png" width="60px" height="60px"></img>  -->
+                <span>진정이네 과일가게</span>
+                <!-- <img src="./image/logo.png" width="30px" height="30px"></img> --> 
+            </div>
+        </a>
+        <a href="./cart.html"><button>장바구니 🛒</button></a>
+    </header>
+    <div>
+        <h3>📢 과일 하나 몰고가세요 🧺</h3>
+    </div>
+    <div id="item-list">
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

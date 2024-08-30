@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>진정이네 과일가게</title>
+    <link rel="icon" type="image/x-icon" href="./image/favicon.ico">
+
+    <style>
+        body{
+            margin: 0 200px;
+        }
+        header{
+            height: 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0 0 20px;
+            
+        }
+        header button{
+            background-color: white;
+            border: 1px solid rgb(108, 105, 105);
+            border-radius: 5px;
+            width: 100px;
+            height: 40px;
+        }
+        header span{
+            font-weight: bold;
+            /* padding-bottom: 10px; */
+        }
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+        #list{
+            /* margin: 100px 300px; */
+            margin: auto;
+            width: 550px;
+
+        }
+        .list-item{
+            display: flex;
+            border-bottom: 1px solid rgb(208, 208, 208);
+            padding: 20px;
+            /* border-radius: 10px; */
+        }
+        img {
+            border-radius: 9px;
+            align-self: center;
+        }
+        .actions {
+            display: flex;
+            align-items: center; /* 수직 중앙 정렬 */
+            gap: 10px; /* 요소들 사이의 간격 조정 */
+            margin-top: 20px;
+        }
+        input[type="number"] {
+            padding: 8px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+        }
+        .actions button {
+            padding: 10px ;
+            border-radius: 10px;
+            border: none;
+            background-color: lightsteelblue;
+        }
+        .actions button:nth-child(3) {
+            background-color: rgb(243, 70, 70);
+            color: white;
+        }
+        .text{
+            margin-left: 40px;
+        }
+    
+    </style>
+</head>
+<body>
+    <header id="nav">
+        <a href="./index.html">
+            <div id="logo"> 
+                <!-- <img src="./image/logo.png" width="60px" height="60px"></img>  -->
+                <span>진정이네 과일가게</span>
+                <!-- <img src="./image/logo.png" width="30px" height="30px"></img> --> 
+            </div>
+        </a>
+        <a href="./cart.html"><button>장바구니 🛒</button></a>
+    </header>
+    <div id="list">
+        <h3 id="title">장바구니</h3>
+        <!-- <div class="list-item">
+            <img src="./image/apple.jpg" width="160px" height="160px" >
+            <div style="margin-left: 20px;">
+                <h3>사과</h3>
+                <p>설명</p>
+                <div class="actions"> 
+                    <input type="number" min="1" value="1" placeholder="수량">
+                    <button type="submit" > 수량 변경  </button>
+                </div>
+                <p>총 가격</p>
+            </div>
+        </div> -->
+
+    </div>
+</body>
+<script src="./cart.js"></script>
+</html>
