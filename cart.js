@@ -60,7 +60,7 @@ function cartRender(){
             button2.textContent = '삭제';
     
             button2.addEventListener('click', ()=>{
-                const updatedCartData = cartData.filter(c => c.id === e[0].id);
+                const updatedCartData = cartData.filter(c => c[0].id !== e[0].id);
         
                 // 업데이트된 장바구니 데이터를 로컬 스토리지에 저장
                 localStorage.setItem('cart', JSON.stringify(updatedCartData));
